@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Scientific Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="glass-container">
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+
+        <div class="button-row">
+            <button data-action="append" data-value="1">1</button>
+            <button data-action="append" data-value="2">2</button>
+            <button data-action="append" data-value="3">3</button>
+            <button data-action="append" data-value="+">+</button>
+        </div>
+
+        <div class="button-row">
+            <button data-action="append" data-value="4">4</button>
+            <button data-action="append" data-value="5">5</button>
+            <button data-action="append" data-value="6">6</button>
+            <button data-action="append" data-value="-">-</button>
+        </div>
+
+        <div class="button-row">
+            <button data-action="append" data-value="7">7</button>
+            <button data-action="append" data-value="8">8</button>
+            <button data-action="append" data-value="9">9</button>
+            <button data-action="append" data-value="*">*</button>
+        </div>
+
+        <div class="button-row">
+            <button data-action="append" data-value="0">0</button>
+            <button data-action="append" data-value=".">.</button>
+            <button data-action="clear">C</button>
+            <button data-action="append" data-value="/">/</button>
+        </div>
+
+        <div class="button-row">
+            <button data-action="calculate">=</button>
+            <button data-action="append" data-value="Math.sqrt(">√</button>
+            <button data-action="append" data-value="Math.sin(">sin</button>
+            <button data-action="append" data-value="Math.cos(">cos</button>
+            <button data-action="append" data-value="Math.tan(">tan</button>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
